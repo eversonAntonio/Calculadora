@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=devide-width, initial-scale=1.0' </head>
+  <link rel="stylesheet" href="styles.css">
+<body>
+  <div class='calculadora'>
+    <div class='linha'>
+      <div id='resumo' class='resumo'>
+      </div>
+    </div>
+    <div class='linha'>
+      <div id='display'>
+        0
+      </div>
+    </div>
+    <div class='linha'>
+      <button id='clear' onclick='limpaDisplay()'>AC</button>
+      <button id='divide' onclick='adicionaDivide()'>/</button>
+      <button id='multiply' onclick='adicionaMultiply()'>*</button>
+    </div>
+    <div class='linha'>
+      <button id='seven' onclick='adicionaNumero(7)'>7</button>
+      <button id='eight' onclick='adicionaNumero(8)'>8</button>
+      <button id='nine' onclick='adicionaNumero(9)'>9</button>
+      <button id='subtract' onclick='adicionaMenos()'>-</button>
+    </div>
+    <div class='linha'>
+      <button id='four' onclick='adicionaNumero(4)'>4</button>
+      <button id='five' onclick='adicionaNumero(5)'>5</button>
+      <button id='six' onclick='adicionaNumero(6)'>6</button>
+      <button id='add' onclick='adicionaMais()'>+</button>
+    </div>
+    <div class='linha'>
+      <button id='one' onclick='adicionaNumero(1)'>1</button>
+      <button id='two' onclick='adicionaNumero(2)'>2</button>
+      <button id='three' onclick='adicionaNumero(3)'>3</button>
+
+    </div>
+    <div class='linha'>
+      <button id='zero' onclick='adicionaZero()'>0</button>
+      <button id='decimal' onclick='adicionaPonto()'>.</button>
+      <button id='equals' onclick='calcular()'>=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
