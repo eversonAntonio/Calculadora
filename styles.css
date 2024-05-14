@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+body {
+  margin: 0;
+  background-color: #c2c2d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+button {
+  height: 65px;
+  color: white;
+  font-family: "Share Tech Mono", monospace, sans-serif;
+  font-size: 20px;
+  background-color: #4d4d4d;
+  width: 80px;
+  outline: 1px solid black;
+}
+
+button:hover {
+  color: black;
+  outline: 0.05em solid grey;
+}
+
+#clear {
+  background-color: rgb(172, 57, 57);
+  width: 160px;
+}
+
+#zero {
+  width: 160px;
+}
+
+#equals {
+  height: 130px;
+  background-color: rgb(0, 68, 102);
+  margin-top: -65px;
+}
+
+#display {
+  font-size: 29px;
+  font-family: "Silkscreen", sans-serif;
+  text-align: right;
+  width: 100%;
+}
+
+.resumo {
+  font-size: 20px;
+  font-family: "Silkscreen", sans-serif;
+  text-align: right;
+  width: 100%;
+  color: orange;
+  min-height: 20px;
+}
+
+.calculadora {
+  background-color: black;
+  width: 320px;
+  padding: 5px;
+}
+
+.linha {
+  display: flex;
+}
